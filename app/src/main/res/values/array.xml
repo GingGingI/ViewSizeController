@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="lists">
+		<item>double finger zoom</item>
+		<item>Button zoom</item>
+	</string-array>
+
+</resources>

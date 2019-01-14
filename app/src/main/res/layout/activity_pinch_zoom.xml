@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/ContentView"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:id="@+id/View"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:layout_centerInParent="true">
+
+		<ImageView
+			android:id="@+id/ImgView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_launcher_background"/>
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="#88117160"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/SizeTxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+			android:id="@+id/RotateTxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</RelativeLayout>
